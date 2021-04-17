@@ -77,10 +77,7 @@ p {
   width: 10.72rem;
   border: 0;
   border-radius: 29px;
-  -webkit-border-radius: 29px;
-  -moz-border-radius: 29px;
-  -ms-border-radius: 29px;
-  -o-border-radius: 29px;
+  letter-spacing: -1px;
   font-weight: 900;
   font-size: .89rem;
   line-height: 1.44rem;
@@ -140,7 +137,8 @@ p {
   .header__heading {
     padding-bottom: 34px; }
   .header__paragraph {
-    padding-bottom: 32px; }
+    padding-bottom: 32px;
+    width: 540px; }
   .header__buttons {
     display: flex;
     justify-content: center; }
@@ -155,4 +153,5 @@ p {
     left: -32px; }
   .image-hero-right {
     position: absolute;
+    top: 8px;
     right: -32px; }
