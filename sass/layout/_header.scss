@@ -8,7 +8,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  width: 30rem;
+  width: 24.72rem;
 
   &__heading {
     padding-bottom: 34px;
@@ -30,10 +30,10 @@
 
 .image-hero {
   position: relative;
-  top: -47px;
 
   &-left {
     position: absolute;
+    top: -47px;
     left: -32px;
   }
 
