@@ -10,7 +10,23 @@ html {
   font-size: 112.5%; }
 
 body {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: #FAFAFA; }
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px; }
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #28283D;
+  border-radius: 10px; }
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #4D96A9;
+  border-radius: 10px; }
 
 body {
   font-family: 'Red Hat Display', sans-serif; }
@@ -41,6 +57,21 @@ p {
   text-transform: uppercase;
   color: #4D96A9; }
 
+.u-center-text {
+  text-align: center; }
+
+.u-margin-center {
+  margin: 0 auto; }
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem; }
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem; }
+
 .btn {
   height: 3.22rem;
   width: 10.72rem;
@@ -70,16 +101,58 @@ p {
     .btn-secondary span {
       color: #D9B8FF; }
 
+.section-border {
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+  .section-border__vertical-line {
+    height: 84px;
+    width: 1px;
+    opacity: 0.25;
+    background-color: #87879D; }
+  .section-border__number {
+    background-color: #FAFAFA;
+    border: 1px solid rgba(135, 135, 157, 0.251);
+    border-radius: 29px;
+    width: 56px;
+    height: 56px;
+    font-weight: 900;
+    font-size: .89rem;
+    line-height: 1.44rem;
+    color: #87879D;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .section-border--p1 {
+    margin-top: 110px;
+    margin-bottom: 64px; }
+
 .logo {
   display: block;
-  margin: 80px auto 0; }
+  margin: 80px auto 108px; }
 
 .header {
   display: flex;
   flex-direction: column;
-  align-items: center; }
-  .header-buttons {
+  align-items: center;
+  text-align: center;
+  width: 30rem; }
+  .header__heading {
+    padding-bottom: 34px; }
+  .header__paragraph {
+    padding-bottom: 32px; }
+  .header__buttons {
     display: flex;
     justify-content: center; }
-    .header-buttons .btn:first-child {
+    .header__buttons .btn:first-child {
       margin-right: .89rem; }
+
+.image-hero {
+  position: relative;
+  top: -47px; }
+  .image-hero-left {
+    position: absolute;
+    left: -32px; }
+  .image-hero-right {
+    position: absolute;
+    right: -32px; }

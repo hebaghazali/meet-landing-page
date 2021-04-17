@@ -1,0 +1,32 @@
+.section-border {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  &__vertical-line {
+    height: 84px;
+    width: 1px;
+    opacity: 0.25;
+    background-color: $grey-color;
+  }
+
+  &__number {
+    background-color: $light-color;
+    border: 1px solid rgba($grey-color, 0.251);
+    border-radius: 29px;
+    width: 56px;
+    height: 56px;
+    font-weight: 900;
+    font-size: .89rem;
+    line-height: 1.44rem;
+    color: $grey-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &--p1 {
+    margin-top: 110px;
+    margin-bottom: 64px;
+  }
+}
