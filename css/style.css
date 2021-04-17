@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 112.5%; }
+
+body {
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Red Hat Display', sans-serif; }
+
+h1 {
+  font-weight: 900;
+  font-size: 3.56rem;
+  line-height: 3.56rem;
+  color: #28283D; }
+
+h2 {
+  font-weight: 900;
+  font-size: 2.22rem;
+  line-height: 2.44rem;
+  color: #28283D; }
+
+p {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.44rem;
+  color: #87879D; }
+
+.overline {
+  font-weight: 900;
+  font-size: .89rem;
+  line-height: 1.44rem;
+  letter-spacing: .22rem;
+  text-transform: uppercase;
+  color: #4D96A9; }
+
+.btn {
+  height: 3.22rem;
+  width: 10.72rem;
+  border: 0;
+  border-radius: 29px;
+  -webkit-border-radius: 29px;
+  -moz-border-radius: 29px;
+  -ms-border-radius: 29px;
+  -o-border-radius: 29px;
+  font-weight: 900;
+  font-size: .89rem;
+  line-height: 1.44rem;
+  color: #fff;
+  outline: none; }
+  .btn-primary {
+    background: #4D96A9; }
+    .btn-primary:hover {
+      cursor: pointer;
+      background: #71C0D4; }
+    .btn-primary span {
+      color: #8FE3F9; }
+  .btn-secondary {
+    background: #855FB1; }
+    .btn-secondary:hover {
+      cursor: pointer;
+      background: #B18BDD; }
+    .btn-secondary span {
+      color: #D9B8FF; }
+
+.logo {
+  display: block;
+  margin: 80px auto 0; }
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .header-buttons {
+    display: flex;
+    justify-content: center; }
+    .header-buttons .btn:first-child {
+      margin-right: .89rem; }

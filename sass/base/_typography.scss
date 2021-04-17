@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap');
+
+body {
+  font-family: 'Red Hat Display',
+    sans-serif;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 3.56rem;
+  line-height: 3.56rem;
+  color: $dark-color;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 2.22rem;
+  line-height: 2.44rem;
+  color: $dark-color;
+}
+
+p {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.44rem;
+  color: $grey-color;
+}
+
+.overline {
+  font-weight: 900;
+  font-size: .89rem;
+  line-height: 1.44rem;
+  letter-spacing: .22rem;
+  text-transform: uppercase;
+  color: $color-primary;
+}
