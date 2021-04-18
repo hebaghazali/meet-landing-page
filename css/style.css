@@ -189,7 +189,8 @@ p {
   background-repeat: no-repeat;
   background-size: cover; }
   .footer__heading {
-    color: #FAFAFA; }
+    color: #FAFAFA;
+    width: 350px; }
   .footer__paragraph {
     width: 350px;
     color: #FAFAFA;
