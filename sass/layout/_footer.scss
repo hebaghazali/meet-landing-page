@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 308px;
+  background-image: linear-gradient(to right,
+      rgba($color-primary, 0.9),
+      rgba($color-primary, 0.9)),
+    url(../../assets/desktop/image-footer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__heading {
+    color: $light-color;
+  }
+
+  &__paragraph {
+    width: 350px;
+    color: $light-color;
+    margin: 0 92px 0 125px;
+  }
+}

@@ -125,7 +125,7 @@ p {
     margin-bottom: 64px; }
   .section-border--p2 {
     margin-top: 72px;
-    margin-bottom: 88px; }
+    margin-bottom: -28px; }
 
 .logo {
   display: block;
@@ -179,3 +179,18 @@ p {
     padding: 16px 0 32px; }
   .section-middle__paragraph {
     width: 30rem; }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 308px;
+  background-image: linear-gradient(to right, rgba(77, 150, 169, 0.9), rgba(77, 150, 169, 0.9)), url(../../assets/desktop/image-footer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .footer__heading {
+    color: #FAFAFA; }
+  .footer__paragraph {
+    width: 350px;
+    color: #FAFAFA;
+    margin: 0 92px 0 125px; }
