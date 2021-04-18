@@ -1,0 +1,33 @@
+.section-middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  &__images {
+    display: flex;
+    justify-content: center;
+
+    img {
+      width: 17.708%;
+      border-radius: 8px;
+
+      &:not(:last-child) {
+        margin-right: 30px;
+      }
+    }
+  }
+
+  &__title {
+    padding-top: 58px;
+  }
+
+  &__heading {
+    width: 24.72rem;
+    padding: 16px 0 32px;
+  }
+
+  &__paragraph {
+    width: 30rem;
+  }
+}
