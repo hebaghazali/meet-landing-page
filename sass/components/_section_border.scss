@@ -3,6 +3,7 @@
   align-items: center;
   flex-direction: column;
 
+
   &__vertical-line {
     height: 84px;
     width: 1px;
@@ -23,6 +24,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 2;
   }
 
   &--p1 {
