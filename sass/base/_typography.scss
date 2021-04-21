@@ -7,29 +7,29 @@ body {
 
 h1 {
   font-weight: 900;
-  font-size: 3.56rem;
-  line-height: 3.56rem;
+  font-size: $heading-1-font-size;
+  line-height: $heading-1-font-size;
   color: $dark-color;
 }
 
 h2 {
   font-weight: 900;
-  font-size: 2.22rem;
+  font-size: $heading-2-font-size;
   line-height: 2.44rem;
   color: $dark-color;
 }
 
 p {
   font-weight: 500;
-  font-size: 1rem;
-  line-height: 1.44rem;
+  font-size: $paragraph-font-size;
+  line-height: $default-line-height;
   color: $grey-color;
 }
 
 .overline {
   font-weight: 900;
-  font-size: .89rem;
-  line-height: 1.44rem;
+  font-size: $small-font-size;
+  line-height: $default-line-height;
   letter-spacing: .22rem;
   text-transform: uppercase;
   color: $color-primary;

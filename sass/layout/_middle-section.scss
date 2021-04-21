@@ -11,10 +11,19 @@
     img {
       width: 17.708%;
       border-radius: 8px;
+      transition: all 1.8s;
 
       &:not(:last-child) {
-        margin-right: 30px;
+        margin-right: 2%;
       }
+
+      &:hover {
+        transform: scale(1.13);
+      }
+    }
+
+    &:hover img:not(:hover) {
+      filter: brightness(60%);
     }
   }
 
