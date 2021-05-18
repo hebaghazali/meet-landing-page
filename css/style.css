@@ -176,7 +176,7 @@ p {
     top: -47px;
     right: 0; } }
 
-@media only screen and (max-width: 1060px) {
+@media only screen and (max-width: 1080px) {
   h1 {
     font-size: 3rem;
     line-height: 3rem; }
