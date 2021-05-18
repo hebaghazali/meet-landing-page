@@ -37,3 +37,16 @@
     margin-bottom: -28px;
   }
 }
+
+@media only screen and (max-width: 1000px) {
+  .section-border--p1 {
+    margin-top: 90px;
+    margin-bottom: 64px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .section-border--p1 {
+    margin-top: 30px;
+  }
+}

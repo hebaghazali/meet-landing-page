@@ -119,6 +119,15 @@ p {
     margin-top: 72px;
     margin-bottom: -28px; }
 
+@media only screen and (max-width: 1000px) {
+  .section-border--p1 {
+    margin-top: 90px;
+    margin-bottom: 64px; } }
+
+@media only screen and (max-width: 800px) {
+  .section-border--p1 {
+    margin-top: 30px; } }
+
 .logo {
   display: block;
   margin: 80px auto 108px; }
@@ -151,6 +160,52 @@ p {
     top: 8px;
     right: -32px; }
 
+@media only screen and (max-width: 1300px) {
+  h1 {
+    font-size: 2.6rem;
+    line-height: 3rem; }
+  .btn {
+    width: 8rem; }
+  .header {
+    width: 0; }
+    .header__heading {
+      width: 25vw; }
+    .header__paragraph {
+      width: 30vw; }
+  .image-hero-right {
+    top: -47px;
+    right: 0; } }
+
+@media only screen and (max-width: 1000px) {
+  h1 {
+    font-size: 3rem;
+    line-height: 3rem; }
+  .header {
+    margin-top: 500px; }
+    .header__heading {
+      width: 44.14vw; }
+    .header__paragraph {
+      width: 59.5vw; }
+  .image-hero img {
+    width: 50vw; } }
+
+@media only screen and (max-width: 650px) {
+  .header {
+    margin-top: 340px; }
+    .header .header {
+      margin-top: 400px; }
+      .header .header__heading, .header .header__paragraph {
+        width: 87.2vw; }
+    .header__buttons {
+      flex-direction: column;
+      align-items: center; }
+      .header__buttons .btn:first-child {
+        width: 51.467vw;
+        margin-right: 0;
+        margin-bottom: 16px; }
+      .header__buttons .btn:last-child {
+        width: 37.067vw; } }
+
 .section-middle {
   display: flex;
   flex-direction: column;
@@ -177,6 +232,17 @@ p {
   .section-middle__paragraph {
     width: 30rem; }
 
+@media only screen and (max-width: 600px) {
+  .section-middle__images {
+    flex-wrap: wrap; }
+    .section-middle__images img {
+      width: 40.267%;
+      padding-bottom: 24px; }
+      .section-middle__images img:first-child, .section-middle__images img:nth-child(3) {
+        padding-right: 25px; }
+  .section-middle__heading, .section-middle__paragraph {
+    width: 87.2vw; } }
+
 .footer-container {
   height: 308px;
   background-image: url(../../assets/desktop/image-footer.jpg);
@@ -202,3 +268,17 @@ p {
         width: 24.305%;
         color: #FAFAFA;
         margin: 0 6.38% 0 8.68%; }
+
+@media only screen and (max-width: 800px) {
+  .footer-container {
+    height: 428px; }
+  .footer-container .layer .footer {
+    flex-direction: column;
+    text-align: center; }
+    .footer-container .layer .footer__heading {
+      width: 59.505vw;
+      margin-top: 50px;
+      margin-bottom: 35px; }
+    .footer-container .layer .footer__paragraph {
+      width: 74.609vw;
+      margin-bottom: 40px; } }

@@ -34,3 +34,27 @@
     }
   }
 }
+
+@media only screen and (max-width: 800px) {
+
+  .footer-container {
+
+    height: 428px;
+  }
+
+  .footer-container .layer .footer {
+    flex-direction: column;
+    text-align: center;
+
+    &__heading {
+      width: 59.505vw;
+      margin-top: 50px;
+      margin-bottom: 35px;
+    }
+
+    &__paragraph {
+      width: 74.609vw;
+      margin-bottom: 40px;
+    }
+  }
+}

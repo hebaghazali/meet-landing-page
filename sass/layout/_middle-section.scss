@@ -40,3 +40,27 @@
     width: 30rem;
   }
 }
+
+@media only screen and (max-width: 600px) {
+
+  .section-middle {
+    &__images {
+      flex-wrap: wrap;
+
+      img {
+        width: 40.267%;
+        padding-bottom: 24px;
+
+        &:first-child,
+        &:nth-child(3) {
+          padding-right: 25px;
+        }
+      }
+    }
+
+    &__heading,
+    &__paragraph {
+      width: 87.2vw;
+    }
+  }
+}
